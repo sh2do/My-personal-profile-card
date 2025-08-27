@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #efcbcb;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}.card .content h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}.card .content p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}.card .social a {
+    margin: 0 10px;
+    text-decoration: none;
+}  .card .social a img {
+    width: 30px;
+    height: 30px;
+}
